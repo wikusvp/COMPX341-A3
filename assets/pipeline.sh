@@ -1,6 +1,6 @@
 if [[ $# -eq 0 ]] ; then
     echo "No commit message given"
-    exit 1
+    exit
 fi
 
 echo "(0) Preparing the Pipeline"
@@ -32,3 +32,4 @@ else
     echo "Deploy failed, exiting pipeline"
     exit
 fi
+
